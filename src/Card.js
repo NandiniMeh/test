@@ -9,9 +9,13 @@ function Info(props) {
   return (
     <div className='main-div'>
       <main>
+        <div classname="info">
       <Card sx={{width: '70%', marginLeft: '15%', marginTop: '5%'}}>
       <CardContent>
         <Typography style={{textAlign: 'center'}}> <b>Today's Forecast </b><br></br> </Typography>
+        <Typography style={{textAlign: 'center'}} className="image-wrapper">
+        <img src={"http://openweathermap.org/img/wn/" + props.res.weather?.[0].icon + "@2x.png"} class="icon" />
+        </Typography>
         <Typography gutterBottom component="div" style={{textAlign: 'center'}}>
           {props.condition}
         </Typography>
@@ -22,6 +26,7 @@ function Info(props) {
         </Typography>
         </CardContent>
     </Card>
+    </div>
         </main>
     </div>
   );
