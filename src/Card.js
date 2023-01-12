@@ -7,11 +7,11 @@ import { Typography } from "@mui/material";
 function Info(props) {
     const Temp = props.T
   return (
-    <div className='main-div'>
+    <div className='main-card'>
       <main>
         <div classname="info">
       <Card sx={{width: '30%', marginLeft: '35%', marginTop: '5%'}}>
-      <CardContent>
+      <CardContent className="card">
         <Typography style={{textAlign: 'center'}}> <b>Today's Forecast </b><br></br> </Typography>
         <Typography style={{textAlign: 'center'}} className="image-wrapper">
         <img src={"http://openweathermap.org/img/wn/" + props.res.weather?.[0].icon + "@2x.png"} class="icon" />
