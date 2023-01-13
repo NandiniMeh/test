@@ -21,6 +21,7 @@ function App() {
   const [res, setRes] = useState('');
   const [feels_like, setFeels_like] = useState('');
   const [T, setT] = useState('');
+  const [display, setDisplay] = useState(false);
 
     const search = evt => {
     if (evt.key === "Enter") {
@@ -31,7 +32,7 @@ function App() {
           setFeels_like(result.main.feels_like)
           setT(result.main.temp)
           setRes(result)
-          console.log(result)
+          setDisplay(true)
           var currWeather = result.weather?.[0].main;
           if (currWeather === "Clouds") {
 
@@ -80,10 +81,10 @@ function App() {
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
-            style = {{'text-align': 'center'}}
+            style = {{'text-align': 'center', 'font-weight': 'bold'}}
           />
         </div>
-        <Info res={res} condition={condition} feels_like={feels_like} T={T} />
+        <Info res={res} condition={condition} feels_like={feels_like} T={T} display={display} />
         </main>
     </div>
   );

@@ -5,6 +5,7 @@ import { Typography } from "@mui/material";
 
 function Info(props) {
     const Temp = props.T;
+    const boll = props.display;
     var currentdate = new Date(); 
     var datetime = "Last Sync: " + currentdate.getDate() + "/"
                 + (currentdate.getMonth()+1)  + "/" 
@@ -23,7 +24,11 @@ function Info(props) {
           <b>{datetime}</b>
         </Typography>
         <Typography style={{textAlign: 'center'}} className="image-wrapper">
-        <img src={"http://openweathermap.org/img/wn/" + props.res.weather?.[0].icon + "@2x.png"} class="icon" />
+        <Typography style={{textAlign: 'center'}} className="image-wrapper">
+          {boll &&
+            <img src={"http://openweathermap.org/img/wn/" + props.res.weather?.[0].icon + "@2x.png"} class="icon" />
+          }
+        </Typography>
         </Typography>
         <Typography gutterBottom component="div" style={{textAlign: 'center'}}>
           <b>{props.condition}</b>
