@@ -20,7 +20,7 @@
 2. Install dependencies
 
    ```
-   cd resume-builder
+   cd weather-app
 
    npm install
    ```
