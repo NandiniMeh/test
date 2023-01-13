@@ -71,12 +71,6 @@
       text-align: center;
 }
 
-@media (max-width:800px) {
-  .info {
-    width: max-content;
-  }
-}
-
 .card-wrapper {
     background-color: rgba(255, 255, 255, 0.4);
       font-size: 20px;
@@ -95,4 +89,12 @@
 
 .description:first-letter {
   text-transform: uppercase;
+}
+
+/* MOBILE */
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .card-wrapper {
+    width: fit-content;
+  }
 }
