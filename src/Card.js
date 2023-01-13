@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { Card } from "@mui/material";
 import { CardContent } from "@mui/material";
 import { Typography } from "@mui/material";
 
@@ -9,7 +8,7 @@ function Info(props) {
   return (
     <div className='main-card'>
       <main>
-        <div classname="info">
+      <div classname="info">
       <div style={{width: '28%', marginLeft: '35%', marginTop: '5%'}} className="card-wrapper">
       <CardContent className="card">
         <Typography style={{textAlign: 'center'}}> <b>Today's Forecast </b><br></br> </Typography>

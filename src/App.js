@@ -7,6 +7,8 @@ import clear from "./weathers/clear.webp";
 import clouds from "./weathers/clouds.jpeg";
 import rain from "./weathers/rain.jpeg";
 import smoke from "./weathers/smoke.jpeg";
+import { Typography } from '@mui/material';
+import { margin } from '@mui/system';
 
 const api = {
   key: 'd52160e4c7db5a91c93345d0a751e9a8',
