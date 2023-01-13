@@ -20,7 +20,7 @@ function Info(props) {
       <CardContent className="card">
         <Typography style={{textAlign: 'center'}}> <b>Today's Forecast </b><br></br> </Typography>
         <Typography style={{textAlign: 'center'}}>
-          {datetime}
+          <b>{datetime}</b>
         </Typography>
         <Typography style={{textAlign: 'center'}} className="image-wrapper">
         <img src={"http://openweathermap.org/img/wn/" + props.res.weather?.[0].icon + "@2x.png"} class="icon" />
