@@ -1,5 +1,10 @@
 ### Check the weather in any location with this weather app!
 
+### Screens
+
+<img width="1413" alt="pre-search" src="https://user-images.githubusercontent.com/90271211/212276703-ce607cec-ac02-41e1-baa0-2c0e31a6013e.png">
+<img width="1419" alt="after-search" src="https://user-images.githubusercontent.com/90271211/212276716-d09bc22a-8c47-4442-89e0-f92b45eb4ade.png">
+
 ### For Users
 
 - Use this technology to automatically create a resume by filling in some simple details!
