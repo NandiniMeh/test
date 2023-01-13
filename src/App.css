@@ -55,7 +55,7 @@
   padding: 10px;
   margin-top: 200px;
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-  border: 5px;
+  border: black solid 2px;
 }
 
 .info {
@@ -71,5 +71,22 @@
       text-align: center;
 }
 
-.card {
+.card-wrapper {
+    background-color: rgba(255, 255, 255, 0.2);
+      font-size: 20px;
+    
+      transition: 0.4s ease;
+      display: block;
+      align-self: center;
+      margin: auto;
+      width: 25%;
+      padding: 10px;
+      margin-top: 200px;
+      box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+      border: black solid 2px;
+  
+}
+
+.description:first-letter {
+  text-transform: uppercase;
 }

@@ -10,7 +10,7 @@ function Info(props) {
     <div className='main-card'>
       <main>
         <div classname="info">
-      <Card sx={{width: '30%', marginLeft: '35%', marginTop: '5%'}}>
+      <div style={{width: '28%', marginLeft: '35%', marginTop: '5%'}} className="card-wrapper">
       <CardContent className="card">
         <Typography style={{textAlign: 'center'}}> <b>Today's Forecast </b><br></br> </Typography>
         <Typography style={{textAlign: 'center'}} className="image-wrapper">
@@ -19,13 +19,13 @@ function Info(props) {
         <Typography gutterBottom component="div" style={{textAlign: 'center'}}>
           <b>{props.condition}</b>
         </Typography>
-        <Typography variant="body1" color="text.primary" style={{textAlign: 'center'}}>
+        <Typography variant="body1" color="text.primary" style={{textAlign: 'center'}} className="description">
           <b>{props.res.weather?.[0].description} </b><br></br>
           <b>Temperature: </b>{Temp} <br></br>
           <b>Feels Like: </b>{props.feels_like} <br></br>
         </Typography>
         </CardContent>
-    </Card>
+    </div>
     </div>
         </main>
     </div>
