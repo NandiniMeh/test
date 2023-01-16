@@ -7,7 +7,7 @@
 
 ### For Users
 
-- Use this technology to automatically create a resume by filling in some simple details!
+- Use this technology to check the weather at any city you enter!
 
 #### Installing
 
