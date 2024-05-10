@@ -2,8 +2,7 @@
 
 ### Screens
 
-<img width="1413" alt="pre-search" src="https://user-images.githubusercontent.com/90271211/212276703-ce607cec-ac02-41e1-baa0-2c0e31a6013e.png">
-<img width="1419" alt="after-search" src="https://user-images.githubusercontent.com/90271211/212276716-d09bc22a-8c47-4442-89e0-f92b45eb4ade.png">
+<img width="1439" alt="image" src="https://github.com/NandiniMeh/weather-checker/assets/90271211/8af13416-32ef-4556-9fcf-1bd3e7afc55b">
 
 ### For Users
 
